@@ -1,0 +1,17 @@
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 479px) {
+  .react-confirm-alert-body {
+    width: 260px !important;
+    padding: 15px;
+  }
+}
